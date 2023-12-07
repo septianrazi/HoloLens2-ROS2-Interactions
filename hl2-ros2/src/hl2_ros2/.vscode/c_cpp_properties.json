@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/std/image_pipeline/install/stereo_image_proc/include/**",
+        "/home/std/image_pipeline/install/image_proc/include/**",
+        "/home/std/image_pipeline/install/tracetools_image_pipeline/include/**",
+        "/home/std/image_pipeline/install/image_view/include/**",
+        "/home/std/image_pipeline/install/image_rotate/include/**",
+        "/home/std/image_pipeline/install/image_publisher/include/**",
+        "/home/std/image_pipeline/install/depth_image_proc/include/**",
+        "/home/std/ros2_ws/install/examples_rclcpp_cbg_executor/include/**",
+        "/home/std/Documents/ros2_ws/install/turtlesim/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
