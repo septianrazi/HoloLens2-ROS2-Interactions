@@ -1,0 +1,3 @@
+[submodule "HoloLens2-ROS2-Interactions-Unity"]
+	path = HoloLens2-ROS2-Interactions-Unity
+	url = https://github.com/septianrazi/HoloLens2-ROS2-Interactions-Unity
