@@ -24,7 +24,7 @@
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 # HoloLens2-ROS2 Interactions ROS Package and XR App
-Control your ROS2 Robot using interaction techniques via the HoloLens. This repository contains the ROS2 Node developed for the Novel Human-Robot Interfaces with XR project, as well as a child repository of the [Unity App](HoloLens2-ROS2-Interactions-Unity).
+Control your ROS2 Robot using interaction techniques via the HoloLens. This repository contains the ROS2 Node developed for the Novel Human-Robot Interfaces with XR project, as well as a child repository of the [Unity App](https://github.com/septianrazi/HoloLens2-ROS2-Interactions-Unity).
 
 Thinking of using this for your future projects? Feel free to fork it and send a pull request.
 
@@ -68,7 +68,7 @@ Thinking of using this for your future projects? Feel free to fork it and send a
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#use-in-your-own-projects">Use in your own Projects</a></li>
+        <!-- <li><a href="#use-in-your-own-projects">Use in your own Projects</a></li> -->
         <li><a href="#running-the-project">Running this Project</a></li>
       </ul>
     </li>
@@ -116,6 +116,8 @@ You will need to download and install the following:
 * [ROS2](https://docs.ros.org/en/humble/Installation.html)
 * [Docker for Ubuntu](https://docs.docker.com/engine/install/)
 * [Python](https://www.python.org/)
+* [Flask](https://flask.palletsprojects.com/en/3.0.x/)
+
 
 ### Running the Project
 
@@ -139,10 +141,12 @@ You will need to download and install the following:
     ```
     ros2 run hl2_ros2 simple_remote_nav
     ```
-6. Open the XR Application either on Unity or on a VAM/XR headset (See [App README.md](HoloLens2-ROS2-Interactions-Unity/README.md))
-7. Ensure the network connected to the machine is set to private to disable strong firewall settings
+6. Open the XR Application either on Unity or on a VAM/XR headset (See [App README.md](HoloLens2-ROS2-Interactions-Unity))
+7. Ensure firewall settings are compatible for API calls to be received (is network set to private?)
 8. Send commands in the app
 
+## Examples
+See the project in action [on YouTube](https://youtu.be/I6QHjA7SUR8?si%253Dj0qudsOrJZQkcJA3)
 
 <!-- CONTRIBUTING -->
 ## Contributing
